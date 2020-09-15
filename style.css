@@ -2,13 +2,27 @@
       background-color:#f5f6f7 
     }
     h1{
-      color: #25089c;
+      color: black;
       text-align: center;
     }
-    h2{
-      color: #4380e0;
-      text-align: left;
-    }
     p{
-      text-align: justify;
+      text-align: center;
     }
+    span.author{
+      font-size: 17px;
+    }
+    img{
+      max-width: 200px;
+      max-height: 270px;
+      object-fit: contain;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+    h5.card-title{
+      margin-top: 10px;
+    }
+    footer.blockquote-footer{
+      margin-bottom: 10px;
+    }
+
